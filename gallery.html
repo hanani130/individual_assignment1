@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+body{
+    background-image: url('images/bgallery.jpg');
+
+  }
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+  .topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+hover
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+  font-family: Arial;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.
+</style>
+
+<body>
+  <div class="topnav">
+  <a href="index.html">HOME</a>
+  <a href="aboutme.html">ABOUT ME</a>
+  <a href="try.html">SKILLS</a>
+  <a href="education.html">EDUCATION</a>
+  <a href="experience.html">EXPERIENCE</a>
+  <a href="gallery.html" style="float:right">GALLERY</a>
+</div>
+
+<h1 style="text-align:center">⋆｡˚ ☁︎ ˚｡⋆｡˚☽˚｡⋆Slideshow From My Favourite Picture⋆｡˚ ☁︎ ˚｡⋆｡˚☽˚｡⋆</h1>
+
+  <h1 sty>HERE MY JAM</h1>
+    <!-- Audio Element -->
+    <audio controls>
+        <source src="audio/backtodecember.mp4" type="audio/mp4">
+    </audio>
+<div class="container">
+  <div class="mySlides" class="center">
+    <div class="numbertext">1 / 11</div>
+    <img src="images/nani1.jpg" style="width:30%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 11</div>
+    <img src="images/nani2.jpg" style="width:30%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 11</div>
+    <img src="images/nani3.jpg" style="width:30%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 11</div>
+    <img src="images/nani4.jpg" style="width:30%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 11</div>
+    <img src="images/nanii.jpg" style="width:30%">
+  </div>
+
+    <div class="mySlides">
+    <div class="numbertext">6 / 11</div>
+    <img src="images/one.jpg" style="width:30%">
+  </div>
+
+    <div class="mySlides">
+    <div class="numbertext">7 / 11</div>
+    <img src="images/ayra.jpg" style="width:30%">
+  </div>
+
+    <div class="mySlides">
+    <div class="numbertext">8 / 11</div>
+    <img src="images/ayna.jpg" style="width:30%">
+  </div>
+
+     <div class="mySlides">
+    <div class="numbertext">9 / 11</div>
+    <img src="images/family.jpg" style="width:30%">
+  </div>
+
+     <div class="mySlides">
+    <div class="numbertext">10 / 11</div>
+    <img src="images/friends.jpg" style="width:30%">
+  </div>
+
+     <div class="mySlides">
+    <div class="numbertext">11 / 11</div>
+    <img src="images/flower.jpg" style="width:30%">
+  </div>
+
+
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="images/nani1.jpg" style="width:30%" onclick="currentSlide(1)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/nani2.jpg" style="width:30%" onclick="currentSlide(2)" >
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/nani3.jpg" style="width:30%" onclick="currentSlide(3)" >
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/nani4.jpg" style="width:30%" onclick="currentSlide(4)" >
+    </div>
+      <div class="column">
+      <img class="demo cursor" src="images/nanii.jpg" style="width:30%" onclick="currentSlide(5)" >
+    </div>
+      <div class="column">
+      <img class="demo cursor" src="images/one.jpg" style="width:30%" onclick="currentSlide(6)" >
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/ayra.jpg" style="width:30%" onclick="currentSlide(7)" >
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/ayna.jpg" style="width:30%" onclick="currentSlide(8)" >
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/family.jpg" style="width:30%" onclick="currentSlide(9)" >
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/friends.jpg" style="width:30%" onclick="currentSlide(10)" >
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/flower.jpg" style="width:30%" onclick="currentSlide(11)" >
+    </div>
+  </div>
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+
+</body>
+</html>

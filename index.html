@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+body 
+
+{
+	background-image: url(images/wall.jpg);
+}
+{
+  font-family: Arial;
+  padding: 10px;
+  background: lightblue;
+}
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background: ghostwhite;
+  font-family: Verdana;
+  background-image: darkcyan;
+}
+
+.header h1
+ {
+  font-size: 70px;
+  font-family: Papyrus;
+  color: darkcyan;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+.topnav a
+ {
+  float: left;
+  display: block;
+  color: whitesmoke;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: darkcyan;
+  color: black;
+}
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: lightcyan;
+  padding-left: 20px;
+}
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+.card {
+  background-image: white;
+  padding: 20px;
+  margin-top: 80px;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Welcome to Hanani's World</h1>
+</div>
+
+<div class="topnav">
+  <a href="hanani_website.html">HOME</a>
+  <a href="aboutme.html">ABOUT ME</a>
+  <a href="try.html">SKILLS</a>
+  <a href="education.html">EDUCATION</a>
+  <a href="experience.html">EXPERIENCE</a>
+  <a href="gallery.html" style="float:right">GALLERY</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2 style="text-align: left;">⋅˚₊‧ ୨୧ ‧₊˚ ⋅MYSELF⋅˚₊‧ ୨୧ ‧₊˚ ⋅</h2>
+      <div class="leftcolumn">
+      	<center>
+     <img src= "images/3.jpg" style=" text-align: center; height:570px; width: 500px;; overflow: hidden; margin: 0 auto; border: 5px solid #ffcccb;box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);" ></center></div>
+     
+     
+    </div>
+    
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      
+
+    <div class="card">
+      <h3>Follow Me</h3>
+      <img src="images/ig.png" alt="instagram" width="80px" height="120px" class="center">
+      <p>naaniieyy</p>
+
+      <img src="images/tt.png" alt="instagram" width="80px" height="120px" class="center">
+      <p>naanieeyy</p>
+    </div>
+  </div>
+</div>
+
+ <script>
+        
+        {
+            alert("Hi !\nWelcome to hanani's personal website <3")
+        }
+    </script>
+
+</body>
+</html>
